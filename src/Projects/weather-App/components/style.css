@@ -1,0 +1,129 @@
+
+    .form{
+      width: 36%;
+     height: 220px;
+      /* border: 1px solid red; */
+      margin-top: 120px;
+      min-width: 300px;
+      max-width: 340px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-direction: column;
+      background-color: #ffffff;
+      border-radius: 6px;
+      padding: 50px 5px 90px 5px;
+      box-shadow: 5px 5px 10px rgba(0,0,0,.2);
+    
+    }
+
+    .login-container{
+      width: 100%;
+      height: 100%;
+      /* border: 1px solid red; */
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      background-color: var(--bg-color);
+      background-color: #59afff;
+      
+      }
+    
+    input{
+      border: 2px solid rgba(0,0,0,.3);
+      outline: none;
+      width: 230px;
+      padding: 5px 15px;
+      margin: 5px 0;
+      border-radius: 2px;
+      font-weight: 500;
+    
+    
+    }
+    input::placeholder{
+      text-transform: capitalize;
+      font-weight: 300;
+    }
+    
+    .btn{
+     
+      border: none;
+      outline: none;
+      transform: translateY(30px);
+      cursor: pointer;
+      background-color: #59afff;
+      border-radius: 4px;
+    min-width: 150px;
+      text-transform: capitalize;
+      padding: 10px 16px;
+      color: #ffffff;
+      font-size: 14px;
+      font-family: 'Play', sans-serif;
+      letter-spacing: 1px;
+      font-weight: 600;
+      box-shadow: 2px 2px 4px rgba(0,0,0,.2);
+     
+    }
+    .country-wrapper{
+      background-color: var(--bg-child);
+      width: 100%;
+      min-height: 100vh;
+     color: var(--text-one);
+      display: flex;
+      justify-content: center;
+      padding: 20px 0;
+      border: 1px solid red;
+     justify-content: center;
+     text-align: center;
+     
+      
+    }
+    .country-wrapper div{
+      margin-top: 20px;
+      font-size: 18px;
+      text-transform: capitalize;
+    }
+    .country-wrapper span{
+      color: #ffb005;
+      font-size: 20px;
+      text-transform: uppercase !important;
+    }
+    .title{
+      color: var(--text-two);
+      font-size: 45px !important;
+      text-transform: uppercase !important;
+      text-decoration: underline;
+    }
+    .capital{
+      background-color: #59afff;
+      color: white;
+    }
+    img{
+      width: 320px;
+      height: auto;
+      object-fit: cover;
+    }
+    a{
+      font-size: 16px !important;
+    }
+    .capital-weather div{
+      margin-top: 25px;
+    }
+    .capital-weather span{
+      margin: 20px;
+    }
+    .weather-title .icon{
+      margin: 10px 0;
+    }
+    .title-capital{
+      font-size: 28px !important;
+    }
+    .error-wrapper{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+   
+    

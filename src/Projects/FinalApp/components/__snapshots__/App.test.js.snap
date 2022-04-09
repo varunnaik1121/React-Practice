@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot testing  rawJson 1`] = `
+<div>
+  <div
+    class="raw-wrapper"
+  >
+    <div
+      class="btn-wrapper"
+    >
+      <button
+        class="btn"
+        data-testid="main-button"
+      >
+        back to main page
+      </button>
+    </div>
+    <h4>
+      Raw JSON for the selected post......
+    </h4>
+    <pre
+      class="raw"
+    >
+      <code />
+    </pre>
+  </div>
+</div>
+`;

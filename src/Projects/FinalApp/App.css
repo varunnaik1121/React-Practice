@@ -1,0 +1,147 @@
+.post-wrapper{
+    width: 85%;
+    height: 100%;
+    padding: 20px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    margin-top: 4%;background-color: white;
+    box-shadow: 4px 4px 10px rgba(0,0,0,.15);
+   
+}
+
+.title{
+    font-size: 12px;
+    text-transform: lowercase;
+
+}
+.post-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.post-details{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+  
+    padding: 10px;
+  
+}
+.title-wrapper{
+    max-width: 14%;
+    min-width: 14%;
+    /* border: 1px solid red; */
+    
+
+}
+.title-wrapper p{
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 12px;
+}
+.heading{
+    font-size: 22px;
+    text-transform: capitalize;
+    margin: 20px 0;
+    letter-spacing: 1px;
+}
+.headers{
+    display: flex;
+    justify-content:flex-start;
+    width: 100%;
+}
+.headers span{
+    width: 20%;
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 10px 5px;
+    text-transform: capitalize;
+    background-color: #8f44fd;
+    box-shadow: 3px 3px 5px rgba(0,0,0,.15);
+    color: white;
+    border-right: 2px solid white;
+   
+    
+}
+.title-wrapper{
+    max-width: 25%;
+    overflow: hidden;
+}
+p{
+    margin-top: 15px;
+}
+.data{
+    /* min-width: 200px; */
+    /* border: 1px solid red; */
+    text-align: left;
+    max-width: 20%;
+    min-width: 20%;
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-top: 20px;
+    height: 60px;
+    padding: 8px 6px 0 12px ;
+    font-weight: 500 !important;
+    
+}
+.data-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+.data-wrapper span{
+    width: 20%;
+}
+.btn{
+    
+   padding: 6px 16px;
+   text-transform: capitalize;
+   border: none;
+   outline: none;
+    text-align: center;
+   margin: 20px auto 0 auto;
+   border-radius: 2px;
+   background-color: #8f44fd;
+   box-shadow: 3px 3px 5px rgba(0,0,0,.15);
+   color: white;
+   cursor: pointer;
+   margin-bottom: 50px;
+}
+
+.raw-wrapper{
+    display: flex;
+    flex-direction: column;
+    
+    width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+.raw{
+    margin: 30px 0;
+    padding: 10px 0px 20px 50px;
+}
+h4{
+    margin:  0 auto;
+    font-size: 24px;
+}
+.author{
+    text-align: center !important;
+  
+}
+
+.pagination{
+  margin: 60px 0 100px 20%;
+    
+}
+.btn-wrapper{
+   margin: 30px auto;
+}
+.data:first-child{
+    font-weight: 600;
+}

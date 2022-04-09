@@ -1,0 +1,107 @@
+.content-wrapper {
+  border: 1px solid red;
+  width: 100%;
+  padding: 20px 150px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.uploadImage-wrapper {
+  width: 50%;
+  height: max-content;
+  border: 1px solid green;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.article-section {
+  width: 100%;
+  display: flex;
+  padding: 10px;
+}
+.image {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.textarea {
+  width: 100%;
+  height: 100px;
+  border: none;
+  outline: none;
+  resize: none;
+  overflow: auto;
+}
+.textarea::-webkit-scrollbar {
+  display: none;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  padding: 4px 5px;
+  border: none;
+  outline: none;
+  margin-right: 20px;
+}
+.uploads {
+  display: flex;
+  border-top: 1px solid black;
+  padding-top: 10px;
+  align-items: center;
+}
+.post-btn {
+  padding: 5px 20px;
+}
+.inputfile {
+  opacity: 0;
+  z-index: -1;
+  width: 0.1px;
+  height: 0.1px;
+
+  overflow: hidden;
+}
+.upload-btn {
+  padding: 4px 20px;
+  margin-left: 30px;
+}
+.post {
+  width: 50%;
+  border: 1px solid red;
+}
+.posts-wrapper {
+  display: flex;
+}
+.info-wrapper {
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  align-items: center;
+}
+.image-wrapper {
+  width: 100%;
+  height: 300px;
+  border: 1px solid red;
+}
+.post-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.message-wrapper {
+  margin-top: 10px;
+}
+.userText {
+  font-size: 12px;
+}
+.social-buttons {
+  display: flex;
+}
+
+.image-shower {
+  width: 100%;
+  height: 300px;
+}

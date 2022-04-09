@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@700&family=Open+Sans:wght@300;400;500&family=Play&family=Poppins:wght@100;200;300;400&family=Righteous&family=Roboto+Condensed:wght@700&display=swap");
+
+.wrapper {
+  padding: 10px 30px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  max-width: 800px;
+  margin-top: 17%;
+  text-align: left;
+  font-size: 21px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  word-break: break-all;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.2);
+}
+body {
+  background-color: #8f44fd;
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+  min-height: 100vh;
+  font-family: "poppins";
+}
+.incorrect {
+  color: rgb(255, 47, 47);
+}
+.normal {
+  color: black;
+}
+.correct {
+  color: rgb(47, 194, 47);
+}
+span {
+  position: relative;
+  line-height: 25px;
+  z-index: 10;
+}
+span.active {
+  color: #8f44fd;
+}
+span.active::after {
+  content: "";
+  position: absolute;
+  width: 110%;
+  height: 2px;
+  background-color: #8f44fd;
+  bottom: 2%;
+  border-radius: 5px;
+  left: 0;
+  animation: popin 1s infinite;
+}
+
+@keyframes popin {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.footer {
+  width: 100%;
+  height: max-content;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 25px 0;
+  padding: 10px 0;
+  flex-wrap: wrap;
+}
+.btn {
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #8f44fd;
+  color: white;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+}
+.input {
+  opacity: 0;
+  /* border: 1px solid red; */
+}
+.title {
+  text-align: center;
+
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  width: max-content;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 6px 0;
+}
+.block {
+  font-size: 18px;
+  border-right: 2px solid rgba(0, 0, 0, 0.35);
+  padding: 0 10px;
+}
+.bold {
+  font-weight: 600;
+}
+.typing {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
+}

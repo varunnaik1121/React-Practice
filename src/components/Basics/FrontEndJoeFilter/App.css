@@ -1,0 +1,10 @@
+.input-wrapper {
+  border: 1px solid red;
+}
+.image {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  margin: 0 10px;
+  cursor: pointer;
+}
