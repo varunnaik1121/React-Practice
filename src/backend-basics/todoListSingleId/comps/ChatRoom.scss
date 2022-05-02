@@ -1,0 +1,71 @@
+.chatroom-container{
+    width: 30rem;
+
+    height: 100vh;
+    // border: 1px solid red;
+    position: relative;
+
+   
+    h4{
+        color: lightgreen;
+        text-align: center;
+        border: 1px solid red;
+        // padding: 1rem;
+        
+    }
+    .message__container {
+        width: 100%;
+        height: 90%;
+        border: 1px solid red;
+        display: flex;
+        flex-direction: column;
+        // position: relative;
+        display: flex;
+
+        
+        
+    }
+    .message-wrapper{
+        border: 1px solid red;
+        width: max-content;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+      
+        p{
+            padding: 6px 10px;
+            margin: 1.3rem 0.1rem;
+           
+            width: max-content;
+            border-radius: 20px;
+            font-size: .7rem;
+            max-width: 50%;
+    
+    
+        }
+        img{
+            width: 25px;
+            height: 25px;object-fit: cover;
+            border-radius: 50%;
+    
+        }
+        .others{
+            background-color: grey;
+           
+            
+
+        }
+        .mine{
+          
+            background-color: pink;
+            align-self: right;
+            
+        }
+    
+
+    }
+    
+
+    
+    
+}

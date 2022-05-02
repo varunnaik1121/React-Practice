@@ -1,6 +1,14 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getFirestore } from "firebase/firestore";
+import {
+  collection,
+  doc,
+  getFirestore,
+  limit,
+  onSnapshot,
+  orderBy,
+  query,
+} from "firebase/firestore";
 import {
   signInWithPopup,
   getAuth,
@@ -53,4 +61,19 @@ export const useAuth = () => {
     return () => unsub;
   }, []);
   return currUser;
+};
+
+export const useCollection = () => {
+  const [messages, setMessages] = useState([]);
+  useEffect(() => {
+    const colRef = collection(db, "messages");
+    const q = query(colRef, orderBy("createdAt"), limit(20));
+    const arr = [];
+    const unsub = onSnapshot(q, (snap) => {
+      snap.docs.map((doc) => arr.push({ ...doc.data(), id: doc.id }));
+      setMessages(arr);
+    });
+    return () => unsub;
+  }, []);
+  return messages;
 };

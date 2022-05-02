@@ -3,6 +3,7 @@ import Login from "./comps/Login";
 import { db } from "./Firebase/firebase";
 import { useAuth } from "./Firebase/firebase";
 import ChatRoom from "./comps/ChatRoom";
+import "./App.scss";
 console.log(db);
 const App = () => {
   const user = useAuth();
