@@ -1,0 +1,28 @@
+.links-container{
+
+    width: 80%;
+    
+    margin:  0 auto;
+    padding: 10px;
+    border-bottom: 1px solid rgba(0,0,0,.15);
+    text-align: center;
+    
+}
+.links{
+    text-decoration: none;
+    margin: 10px 20px;
+    font-size: .8rem;
+    font-weight:400 ;
+    color:#5f6368;
+    text-transform: capitalize;
+    
+    
+}
+.active{
+    color: #5598ee;
+    border-bottom: 2px solid #70a7f1;
+    text-align: center;
+    transition: all .2s ease;
+   padding: 4px 4px;
+
+}

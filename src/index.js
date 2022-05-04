@@ -3,4 +3,10 @@ import ReactDOM from "react-dom";
 // import { Provider } from "react-redux";
 // import store from "./Redux-toolkit-basics/redux/store";
 import App from "./Google-Clone/App";
-ReactDOM.render(<App></App>, document.getElementById("root"));
+import { StateContextProvider } from "./Google-Clone/context/stateContextProvider";
+ReactDOM.render(
+  <StateContextProvider>
+    <App></App>
+  </StateContextProvider>,
+  document.getElementById("root")
+);

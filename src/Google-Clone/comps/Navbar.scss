@@ -1,0 +1,46 @@
+.container{
+   
+    width: 100%;
+    // border: 1px solid red;
+  
+    .logo{
+        width: 100px;
+       height: auto;
+       cursor: pointer;
+    }
+   
+    .input{
+       width: 33%;
+        height: 36px;
+        border-radius: 20px;
+        border: 1px solid rgba(0,0,0,.2);
+        padding: 0 20px;
+        outline: none;
+        transition: all .1s ease;
+        margin-right: 4%;
+
+        &:hover{
+            box-shadow: 1px 1px 10px rgba(0,0,0,.15);
+        }
+        @media screen and (max-width:600px) {
+           width: 55%;
+            
+        }
+    }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .icons-container{
+        padding: 0 10px;
+        .icon{
+            margin: 0 20px;
+            cursor: pointer;
+        }
+        @media screen and (max-width:600px) {
+            display: none;
+            
+        }
+    }
+
+}
